@@ -1,5 +1,6 @@
-package main;
+package main.airport;
 
+import main.airport.*;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -15,7 +16,7 @@ class FlightTest {
     @BeforeEach
     void init() {
         economy = new EconomyFlight(1L, 1000);
-        business = new main.BusinessFlight(1L, 500);
+        business = new main.airport.BusinessFlight(1L, 500);
         premium = new PremiumFlight(1L, 1500);
         usual = new Passenger(1L, "apple", "usual", null, null, false);
         vip = new Passenger(1L, "apple", "vip", null, null, true);

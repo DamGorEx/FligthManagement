@@ -1,4 +1,4 @@
-package main;
+package main.airport;
 
 public class EconomyFlight extends Flight {
 

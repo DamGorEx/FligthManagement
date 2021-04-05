@@ -1,4 +1,4 @@
-package main;
+package main.airport;
 
 import lombok.*;
 import lombok.extern.slf4j.Slf4j;

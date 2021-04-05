@@ -1,10 +1,9 @@
-package main;
+package main.airport;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 
-import javax.validation.executable.ValidateOnExecution;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;

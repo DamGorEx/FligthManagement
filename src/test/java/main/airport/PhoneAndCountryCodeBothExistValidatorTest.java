@@ -1,5 +1,7 @@
-package main;
+package main.airport;
 
+import main.airport.Passenger;
+import main.airport.PhoneAndCountryCodeBothExistValidator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;

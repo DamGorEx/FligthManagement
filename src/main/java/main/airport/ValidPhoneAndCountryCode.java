@@ -1,4 +1,4 @@
-package main;
+package main.airport;
 
 
 import javax.validation.Constraint;
